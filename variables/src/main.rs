@@ -20,6 +20,14 @@ fn main() {
         let x = x * 2; // 12
         println!("The value of x in the inner scope is: {x}");
     }
-
     println!("The value of x is: {x}"); // 6
+
+    /*
+    The other difference between mut and shadowing is that because we’re 
+    effectively creating a new variable when we use the let keyword again, 
+    we can change the type of the value but reuse the same name
+     */
+    let spaces: &str = "   ";
+    let spaces: usize = spaces.len();
+    println!("{spaces}")
 }

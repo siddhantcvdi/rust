@@ -33,7 +33,6 @@ fn main() {
 }
 fn gives_ownership() -> String {
     let some_string = String::from("yours");
-
     some_string
 }
 

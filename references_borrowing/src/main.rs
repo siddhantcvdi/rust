@@ -34,7 +34,6 @@ fn calculate_length1(s: &mut String) {
 //     let r2 = &s; // no problem
 //     println!("{r1} and {r2}");
 //     // variables r1 and r2 will not be used after this point
-
 //     let r3 = &mut s; // no problem
 //     println!("{r3}");
 
@@ -45,3 +44,4 @@ fn calculate_length1(s: &mut String) {
 //     let s = String::from("hello"); // s is a new String
 //    &s // we return a reference to the String, s
 // } // Here, s goes out of scope, and is dropped. Its memory goes away.
+
